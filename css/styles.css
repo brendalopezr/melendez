@@ -54,6 +54,12 @@ html,body{width:100%;max-width:100%;overflow-x:clip}body.menu-open{overflow:hidd
 @media(max-width:700px){.footer-brand{display:flex;flex-direction:column;align-items:flex-start}.footer-brand>.brand{margin-bottom:22px}.footer-brand>.brand b{font-size:17px;letter-spacing:.15em}.footer-brand>.brand small{letter-spacing:.25em}}
 
 /* Menú móvil a pantalla completa */
+.gallery .gallery-item,.featured .project-visual{background-repeat:no-repeat;background-size:cover;background-position:center}
+.gallery .g1,.featured .g1{background-image:url('../img/galeria/espacio-cocina.jpg')}.gallery .g2,.featured .g2{background-image:url('../img/galeria/espacio-ropero.jpg')}.gallery .g3,.featured .g3{background-image:url('../img/galeria/espacio-oficina.jpg')}.gallery .g4,.featured .g4{background-image:url('../img/galeria/espacio-entretenimiento.jpg')}.gallery .g5,.featured .g5{background-image:url('../img/galeria/espacio-dormitorio.jpg')}.gallery .g6,.featured .g6{background-image:url('../img/galeria/espacio-clinica.jpg')}
+.gallery .gallery-item{background-color:#d8d2c8}.gallery .gallery-item:hover{background-size:cover}
+.types .type{background-repeat:no-repeat;background-size:cover;background-position:center}
+.types .t1{background-image:url('../img/galeria/espacio-cocina.jpg')}.types .t2{background-image:url('../img/galeria/espacio-ropero.jpg')}.types .t3{background-image:url('../img/galeria/espacio-oficina.jpg')}.types .t4{background-image:url('../img/galeria/espacio-entretenimiento.jpg')}.types .t5{background-image:url('../img/galeria/espacio-dormitorio.jpg')}.types .t6{background-image:url('../img/galeria/espacio-clinica.jpg')}
+.types .type:hover{background-size:cover}.types .type:after{background:linear-gradient(transparent 42%,rgba(10,10,8,.82))}
 @media(max-width:1100px){
   .header{transform:none!important}
   .header nav{position:fixed;top:0;left:0;right:auto;bottom:auto;width:100vw;height:100dvh;min-height:100vh;z-index:1000;box-sizing:border-box;padding:calc(82px + env(safe-area-inset-top)) 24px calc(30px + env(safe-area-inset-bottom));justify-content:flex-start;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;background:#171714;visibility:hidden;opacity:0;pointer-events:none;transform:translateX(100%)}
